@@ -10,3 +10,6 @@ class Settings:
         # Screen settings
         self.screen_width, self.screen_height = screen_dimensions_tuple
         self.bg_color = background_color_tuple
+
+        # Ship settings
+        self.ship_speed = 1.5
